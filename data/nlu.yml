@@ -3,30 +3,30 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
+    - chào bạn
     - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hi bạn
+    - chào anh
+    - chào chị
+    - chào buổi sáng
+    - chào buổi tối
+    - chào bạn nhé
+    - chào anh/chị
+    - hê lô
+    - chào cậu
+    - chào em
+    - chào cháu
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
     - bye
+    - good by
+    - tạm biệt
+    - good night
+    - hẹn gặp lại
     - goodbye
     - have a nice day
-    - see you around
+    - chào, gặp sau nhé
     - bye bye
     - see you later
 
@@ -34,37 +34,35 @@ nlu:
   examples: |
     - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - đúng thế
+    - đúng vậy
+    - đúng rồi
+    - thực vậy
+    - tất nhiên rồi
+    - nghe hay đó
+    - chính xác
 
 - intent: deny
   examples: |
     - no
-    - n
+    - không
     - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - tôi không nghĩ vậy
+    - tôi không nghĩ thế
+    - không thích điều đó
+    - không phải vậy chứ
+    - ko
 
 - intent: mood_great
   examples: |
     - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - tuyệt
+    - tuyệt vời
+    - tuyệt đấy
+    - ok đấy
+    - không thể tin được
+    - không thể tin nổi
+    - quá tuyệt vời
 
 - intent: mood_unhappy
   examples: |
@@ -82,6 +80,20 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - ngày của tôi thật kinh khủng
+    - Tôi buồn
+    - Tôi cảm thấy không được khỏe lắm
+    - Tôi thất vọng
+    - siêu buồn
+    - Tôi buồn quá
+    - buồn
+    - rất buồn
+    - không vui
+    - không tốt
+    - không tốt lắm
+    - buồn vô cùng
+    - buồn quá
+    - quá buồn
 
 - intent: bot_challenge
   examples: |
@@ -89,3 +101,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - bạn có phải robot không?
+    - Bạn có phải là con người?
+    - tôi đang nói chuyện với bot à?
+    - Tôi đang nói chuyện với một con người sao?
